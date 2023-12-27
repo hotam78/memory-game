@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memort game</title>
+    <link rel="stylesheet" type="text/css" href="mGame.css" />
+</head> 
+<body>
+    <div class="title"><h1>memory-game</h1></div>
+    <div class="container game">
+      <div class="board">
+      </div>
+      <div class="gameRun">
+        <div class="shalosh"><span id="nikud">0</span><span id="sumCards"></span> </div>
+        <div class="time shalosh">00:<span id="timeRun">59</span></div>
+        <dive class="user shalosh">user</dive>
+      </div>
+    </div>
+ 
+    <script src="./mGame.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- תרגול - משחק זיכרון
+מתחילים משחק זיכרון.
+
+משימות להיום:
+1. לבנות מערך של קלפים.
+2. לבנות פונקציה שתערבב את המערך (להדפיס את המערך בסוף כש * מייצגת קלף נסתר)
+3. פונקציה שתקבל 2 בחירות מהמשתמש ותבדוק אם הקלפים שנבחרו תואמים או לא.
+   במידה והם תואמים צריך להדפיס למסך את המערך שהקלפים שנבחרו גלויים במידה ולא לזרוק alert של המערך עם הקלפים גלויים אבל לא לשמור אותם בתור גלויים.
+
+
+רקע:
+אנו בונים משחק זיכרון אינטרנטי, המשחק יהיה של X קלפים (לפי בחירת המשתמש)
+
+הוראות המשחק:
+בתחילת המשחק הקלפים מסודרים על המסך כאשר הם הפוכים. בכל פעם שמריצים את התוכנית הכרטיסים מסודרים על המסך בסדר אחר.
+כאשר המשתתף לוחץ על קלף, הקלף מוצג, לאחר שהמשתתף לוחץ על שני קלפים מתבצעת בדיקה האם הם זהים.
+במידה והקלפים שונים זה מזה הקלפים יוצגו למשך 5 שניות ולאחר מכן יתהפכו חזרה.
+במידה והקלפים זהים הם ישארו מוצגים.
+בסיום המשחק המערכת תציג למשתמש בכמה סבבים הוא הצליח לפתור את המשחק.
+
+שלב ראשון:
+בשלב הראשון נגביל את מספר הכרטיסים מראש, לא נשווה בין הקלפים ובלחיצה נפתח קלף.
+
+משימה ראשונה:
+Create github project
+Create new directory on your computer with the same name of the project
+Open vs code inside the new directory 
+Run the init commands from github to connect your repo to remote
+Start coding and don’t forget to use the git command (add commit push) to update and track your project
+משימה שניה:
+Create HTML file:
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title">Memory Game By Lihay</h1>
+    <div id="board"></div>
+    <script src="memory-game.js"></script>
+  </body>
+</html>
+
+
+Create memory-game.js
+Create cards array of objects each object represents a card with a different name.
+Create Shuffle() function to shuffle the array use a random shuffling
+Create CreatCardElement() function to draw card on the screen
+Create OnClickCard() event is called when the user click on card
+Write additional functions as needed
+
+משימה שלישית:
+עיצוב העמוד CSS
+
+
+
+
+ -->
